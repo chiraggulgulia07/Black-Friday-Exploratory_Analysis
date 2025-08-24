@@ -5,8 +5,8 @@ This project delves into the purchasing behavior of customers of a retail compan
 
 This notebook focuses on the critical initial stages of the machine learning pipeline: Exploratory Data Analysis (EDA), Data Cleaning, Feature Engineering, and Data Preprocessing to prepare the dataset for model training.
 
-Key Features & Workflow
-Data Cleaning & Preprocessing:
+**Key Features & Workflow**
+# Data Cleaning & Preprocessing:
 
 Executed robust data cleaning by merging the training and testing datasets to ensure consistent transformations.
 
@@ -14,7 +14,7 @@ Handled missing values in categorical features (Product_Category_2 and Product_C
 
 Cleaned and standardized the Stay_In_Current_City_Years column by removing special characters ('+') and converting the data type to integer for numerical analysis.
 
-Feature Engineering:
+# Feature Engineering:
 
 Transformed categorical variables into numerical representations to make them suitable for machine learning models.
 
@@ -22,19 +22,19 @@ Applied One-Hot Encoding on the City_Category column, effectively converting nom
 
 Implemented Manual Ordinal Encoding for the Age column and Label Encoding for Gender, preserving the inherent order and simplifying binary features.
 
-Exploratory Data Analysis (EDA):
+# Exploratory Data Analysis (EDA):
 
 Utilized Seaborn and Matplotlib to create insightful visualizations, including bar plots to analyze the relationship between key demographic features (Age, Occupation, Gender) and the total purchase amount.
 
 Uncovered a key insight from the analysis: Males demonstrated a significantly higher purchasing power compared to females across most product categories and age groups.
 
-Feature Scaling:
+# Feature Scaling:
 
 Prepared the dataset for model training by separating the independent variables (X) and the target variable (y).
 
 Applied StandardScaler from Scikit-learn to scale the features. This step standardizes the data to have a mean of 0 and a standard deviation of 1, which is crucial for the performance of many regression algorithms.
 
-Technologies Used
+# Technologies Used
 Data Analysis & Manipulation: Pandas, NumPy
 
 Data Visualization: Seaborn, Matplotlib
